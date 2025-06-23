@@ -4,8 +4,8 @@ import Gallery from "./Gallery";
 import Plan from "./Plan";
 import Footer from "../layout/Footer";
 import Testimonial from "../layout/Testimonial";
-import Header from "../layout/Header2";
-import PropertyCarousel from "../layout/Card";
+import Header from "../layout/header2";
+import PropertyCarousel from "../layout/card";
 export const HeroSmall = () => {
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     isActive ? "border-b-4 border-b-brown" : "border-b-4 border-transparent";

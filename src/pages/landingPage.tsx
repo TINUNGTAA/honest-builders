@@ -6,7 +6,7 @@ import Footer from "../components/layout/Footer";
 import Gallery from "../components/section/Gallery";
 import PropertySection from "../components/section/PropertyCarousel";
 import HeroLayout from "../components/section/hero-layout";
-import PropertyCarousel from "../components/layout/Card";
+import PropertyCarousel from "../components/layout/card";
 const Landing: React.FC = () => {
   return (
     <section className="font-inter">

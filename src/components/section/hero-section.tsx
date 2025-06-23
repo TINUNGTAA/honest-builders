@@ -1,6 +1,6 @@
 import assets from "../../assets/assests";
-import Head from "../layout/Header";
-import Band from "../layout/Band";
+import Head from "../layout/header";
+import Band from "../layout/band";
 import { useState,useEffect } from "react";
 
 const backgroundImages = [

@@ -1,5 +1,5 @@
 import assets from "../assets/assests";
-import Header from "../components/layout/Header2";
+import Header from "../components/layout/header2";
 import HouseCard from "../components/layout/HouseCard"; //
 
 const HousePlane = () => {

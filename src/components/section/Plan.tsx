@@ -1,5 +1,5 @@
 import assets from "../../assets/assests";
-import BlueBand from "../layout/BlueBand";
+import BlueBand from "../layout/blueBand";
 
 const Plan: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../layout/Header2"; 
-import Band from "../layout/Band";
+import Header from "../layout/header2"; 
+import Band from "../layout/band";
 
 interface BackgroundLayoutProps {
   backgroundImage: string;

@@ -12,7 +12,7 @@ const Head: React.FC = () => {
           </Link>
         </div>
 
-        <ul className="flex space-x-16 text-white items-center text-xl">
+        <ul className="flex space-x-12 text-white items-center text-[18px]">
           <li>
             <Link
               to="#"

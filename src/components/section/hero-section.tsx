@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
         <Head/>
         </div>
        
-        <div className="flex items-center justify-center h-[880px] ">
+        <div className="flex items-center justify-center h-[800px] ">
           <div className="relative w-[315px]  text-xl  mt-[480px]">
             <input
               type="text"

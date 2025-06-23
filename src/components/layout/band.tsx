@@ -9,14 +9,14 @@ const Band: React.FC = () => {
   return (
     <div className="font-inter ">
       <div className="md:flex hidden  w-full ">
-        <div className="bg-[#E9EAEF] py-10 px-28 text-xl">
+        <div className="bg-[#E9EAEF] py-10 px-28 text-[18px]">
           <NavLink to="/plan" className={linkClass}>
             DISCOVER THE EXPERIENCE
           </NavLink>
         </div>
 
         <div className="flex-grow text-white bg-[#1E305E] px-[150px] py-10">
-          <div className="flex gap-x-8 text-xl">
+          <div className="flex gap-x-4 text-[18px]">
             <NavLink to="/trust-us" className={linkClass}>
               HOW TRUST IS BUILT
             </NavLink>

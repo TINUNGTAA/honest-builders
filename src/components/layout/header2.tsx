@@ -71,10 +71,10 @@ const Header: React.FC = () => {
             alt="Logo"
             className="sm:h-[117px] sm:w-[308px] h-10"
           />
-        </Link>
+        </Link> 
 
         {/* Desktop Nav Links */}
-        <ul className="hidden sm:flex items-center gap-10 text-white text-xl">
+        <ul className="hidden sm:flex items-center gap-10 md:px-[150px] text-white text-[18px]">
           {navItems.map((item) => (
             <li key={item.name} className="relative group">
               <Link

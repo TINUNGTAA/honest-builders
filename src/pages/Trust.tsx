@@ -29,7 +29,7 @@ const Trust = () => {
 
       {/* card and badge */}
       <div className=" flex flex-col md:flex-row px-0  md:px-28 py-8 md:py-16 items-center  md:gap-[250px] bg-blue">
-        <div className=" flex-col   md:w-1/5">
+        <div className=" flex-col   md:w-2/5">
           <img
             src={assets.trust.review}
             alt="Customer reviews"
@@ -40,7 +40,7 @@ const Trust = () => {
           </p>
         </div>
         {/* 2 top quality cards */}
-        <div className=" hidden md:flex   gap-12">
+        <div className=" hidden md:flex   gap-5">
           <div className="w-[440px] h-[470px] py-12 rounded-3xl shadow-lg bg-[#DDE0E7]">
             <div className="flex flex-col items-center rounded-xl border-brown border bg-[#DDE0E7] gap-6 px-6 w-[90%] h-[380px] mx-auto text-center">
               <p className="text-[32px] mt-3 text-center font-extrabold">

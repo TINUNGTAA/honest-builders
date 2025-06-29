@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="flex flex-col max-h-[900px] font-inter overflow-hidden">
+    <section className="flex flex-col min-h-[900px] font-inter overflow-hidden">
       <div
         className="w-full min-h-[800px] bg-cover bg-center relative transition-all duration-1000 ease-in-out"
         style={{

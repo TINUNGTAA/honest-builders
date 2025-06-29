@@ -29,7 +29,7 @@ const Trust = () => {
 
       {/* card and badge */}
       <div className=" flex flex-col md:flex-row px-0  md:px-28 py-8 md:py-16 items-center  md:gap-[250px] bg-blue">
-        <div className=" flex-col   md:w-2/5">
+        <div className=" flex-col   md:w-2/3">
           <img
             src={assets.trust.review}
             alt="Customer reviews"

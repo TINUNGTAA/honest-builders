@@ -18,16 +18,12 @@ const HeroLayout: React.FC<BackgroundLayoutProps> = ({
           <Header />
         </header>
       <div
-        className="w-full h-[290px] md:h-full bg-cover bg-no-repeat bg-center relative flex flex-col"
+        className="w-full h-[230px] md:h-full bg-cover bg-no-repeat bg-center relative flex flex-col"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         {/* Overlay for small screens only (below md breakpoint) */}
         <div className="absolute inset-0 bg-[#00000080] md:bg-transparent z-10" />
-{/*         
-        Static Header - needs to be above overlay
-        <header className="w-full fixed top-0 left-0 z-50">
-          <Header />
-        </header> */}
+
 
         {/* Centered Content - needs to be above overlay */}
         <div className="flex flex-1 mx-auto items-center justify-center md:mb-[150px] sm:px-8 relative z-20">

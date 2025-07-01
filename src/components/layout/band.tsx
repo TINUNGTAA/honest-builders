@@ -15,7 +15,7 @@ const Band: React.FC = () => {
           </NavLink>
         </div>
 
-        <div className="flex-grow text-white bg-[#1E305E] pl-[200px] pr-[20px] py-10">
+        <div className="flex-grow text-white bg-[#1E305E] pl-[200px] pr-[50px] py-10">
           <div className="flex gap-x-10 text-[18px]">
             <NavLink to="/trust-us" className={linkClass}>
               HOW TRUST IS BUILT

@@ -97,10 +97,10 @@ const Trust = () => {
       </div>
 
       <div className="flex rounded-full mx-auto items-center w-[260px] h-[260px] md:w-[600px] md:h-[600px] mb-16 border-brown border-[5px] bg-gray-500">
-        <div className="flex-col items-center justify-center mx-auto w-[240px] h-[240px] md:w-[580px] md:h-[580px] border-brown border-[5px] rounded-full bg-blue  md:space-y-6  px-6 md:px-24 py-6 md:py-12">
+        <div className="flex-col items-center justify-center mx-auto w-[240px] h-[240px] md:w-[580px] md:h-[580px] border-brown border-[5px] rounded-full bg-blue  space-y-0 md:space-y-6  px-6 md:px-24 py-6 md:py-12">
           <img
             src={assets.trust.badge}
-            className="mx-auto w-20 h-20  "
+            className="mx-auto w-12 h-12 md:w-20 md:h-20  "
             alt="Trust badge"
           />
           <img

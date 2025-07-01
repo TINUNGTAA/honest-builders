@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
         </div>
        
         <div className="flex items-center justify-center ">
-          <div className="relative w-[315px]  text-xl  mt-[500px]">
+          <div className="relative w-[315px]  text-xl  mt-[600px]">
             <input
               type="text"
               placeholder="Search"

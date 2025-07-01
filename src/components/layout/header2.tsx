@@ -74,7 +74,7 @@ const Header: React.FC = () => {
         </Link> 
 
         {/* Desktop Nav Links */}
-        <ul className="hidden sm:flex items-center font-medium gap-10 md:pl-[150px] md:pr-[20px] text-white text-[18px]">
+        <ul className="hidden sm:flex items-center font-medium gap-10 md:pl-[150px] md:pr-[10px] text-white text-[18px]">
           {navItems.map((item) => (
             <li key={item.name} className="relative group">
               <Link
